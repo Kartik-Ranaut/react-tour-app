@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
+import Tours from "./components/Tours";
+import data from "./data"
 const App = () => {
-  return <div>App</div>;
+  const [tours,setTours]=useState(data);
+  return (
+    <div>
+      <Tours tour={tours}></Tours>
+    </div>
+  );
 };
 
 export default App;

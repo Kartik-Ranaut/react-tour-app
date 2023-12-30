@@ -2,14 +2,14 @@ import Card from "./Card";
 
 function Tours(props){
     return(
-        <div>
-            <div>
+        <div className="container">
+            <div className="title">
                 <h1>Plan with Love</h1>
             </div>
-            <div>
+            <div className="cards">
                 {
                     props.tour.map((element)=>{
-                        return <Card {...element}></Card>
+                        return <Card {...element} removeTour={props.removeTour}></Card>
                     })
                 }
             </div>

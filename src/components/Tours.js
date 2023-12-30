@@ -9,7 +9,7 @@ function Tours(props){
             <div className="cards">
                 {
                     props.tour.map((element)=>{
-                        return <Card {...element} removeTour={props.removeTour}></Card>
+                        return <Card key={element.id} {...element} removeTour={props.removeTour}></Card>
                     })
                 }
             </div>

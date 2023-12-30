@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-tour-app/static/css/main.3e99bf4c.css",
+    "main.js": "/react-tour-app/static/js/main.59ca2f76.js",
+    "index.html": "/react-tour-app/index.html",
+    "main.3e99bf4c.css.map": "/react-tour-app/static/css/main.3e99bf4c.css.map",
+    "main.59ca2f76.js.map": "/react-tour-app/static/js/main.59ca2f76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e99bf4c.css",
+    "static/js/main.59ca2f76.js"
+  ]
+}

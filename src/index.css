@@ -8,6 +8,8 @@ body{
     width: 100vw;
 }
 .container{
+
+    
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -15,13 +17,15 @@ body{
     gap:40px;
 }
 .title{
-    font-size: 1rem; 
-    border: 7px dashed rgb(1,17,160) ;
+    font-size: .8rem; 
+    border: 4px dashed rgb(1,17,160) ;
+    text-align: center;
     border-radius: 20px;
     width: 400px;
     height: fit-content;
-    padding: 20px;
+    padding: 10px;
     margin: 40px;
+    margin-bottom: 0px;
 }
 .cards{
     box-sizing: border-box;
@@ -30,18 +34,73 @@ body{
     height: fit-content;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap:50px;
     overflow: hidden;
-    padding: 100px;
+    padding-top: 20px;
+    
 }
 .card{
-    width: 500px;
-    height: 400px;
+    width: 320px;
+    height: 600px;
     overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+ 
+    border: 1px solid black;
 }
 
 .image{
-    width: 400px;
-    height: 350px;
+    width: 280px;
+    height: 280px;
+    size: initial;
+    object-fit: cover;
+    border-radius: 10px;
+    border-end-start-radius: 0px;
+    border-end-end-radius: 0px;
+}
+.tour-details{
+    width: 100%;
+}
+.tour-price{
+    color: green;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.tour-name{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.description{
+    height: 120px;
+    text-align: left;
+    overflow: scroll;
+}
+
+span{
+    color: rgb(20, 130, 233);
+}
+
+button{
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:10px;
+    background-color: rgb(223, 189, 189);
+    margin-top: 20px;
+}
+
+.containerbox{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -4,7 +4,7 @@ function Tours(props){
     return(
         <div className="container">
             <div className="title">
-                <h1>Plan with Love</h1>
+                <h1>Plan with Kartik</h1>
             </div>
             <div className="cards">
                 {

@@ -13,7 +13,7 @@ const App = () => {
   }
   if(tours.length===0){
     return(
-      <div>
+      <div className="containerbox">
         <h1> No Tour Left</h1>
         <button onClick={refreshHandler}>Refresh</button>
       </div>
